@@ -34,7 +34,6 @@ export default function SOSPage() {
 
   useEffect(() => {
     fetchContacts();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentUser?.uid]);
 
   async function handleAdd(data) {
