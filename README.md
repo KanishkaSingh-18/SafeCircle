@@ -18,6 +18,13 @@ SafeCircle is designed to solve this by providing a **fast, structured, and acti
 
 ---
 
+## Demo
+
+- Live App: 
+- Demo Video: https://drive.google.com/file/d/1RqPlk5s9eQ1VreQbtzD78rtqVD3TSDjV/view?usp=sharing
+
+---
+
 ## ✨ Features
 
 ### 🔐 Authentication System
