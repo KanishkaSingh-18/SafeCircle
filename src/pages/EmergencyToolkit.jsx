@@ -149,7 +149,6 @@ export default function EmergencyToolkit() {
       if (!blob) return;
       const url = URL.createObjectURL(blob);
       setPhotoUrl(url);
-      // stop camera preview to save resources
       try { stopCamera(); } catch (err) {}
     }, 'image/jpeg', 0.92);
   }
