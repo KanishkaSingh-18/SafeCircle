@@ -1,5 +1,4 @@
 // Structured emergency categories for SafeCircle
-// Each category includes common emergency numbers and practical actions.
 
 export const emergencyCategories = [
   {
