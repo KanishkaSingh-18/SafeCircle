@@ -6,16 +6,13 @@ export default function Home() {
     return (
     <main className="w-full overflow-x-hidden bg-gradient-to-br from-rose-50 via-white to-slate-50">
             <div className="relative">
-                {/* soft decorative blobs */}
                 <div className="absolute -top-12 -left-20 w-60 h-60 bg-rose-100 opacity-24 rounded-full filter blur-3xl pointer-events-none" aria-hidden />
                 <div className="absolute -bottom-16 -left-6 w-80 h-80 bg-blue-100 opacity-18 rounded-full filter blur-3xl pointer-events-none" aria-hidden />
                 <div className="absolute -bottom-6 -right-12 w-56 h-56 bg-pink-100 opacity-16 rounded-full filter blur-3xl pointer-events-none" aria-hidden />
 
                 <div className="max-w-[1180px] mx-auto px-4 md:px-6 mt-12 md:mt-16 pb-6">
-                    {/* HERO CARD */}
                     <section className="w-full bg-white/70 backdrop-blur-md border border-white/50 rounded-[28px] shadow-none px-8 md:px-10 py-8 md:py-10 mb-8">
                         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-8">
-                            {/* Left: content */}
                             <div className="flex flex-col justify-center">
                                 <h1 className="text-5xl md:text-6xl font-extrabold text-rose-700 tracking-tight leading-none">
                                     SafeCircle
@@ -52,27 +49,21 @@ export default function Home() {
                                 </div>
                             </div>
 
-                            {/* Right: illustration (refined to match reference) */}
                             <div className="flex items-center justify-center relative">
-                                {/* large soft circular glow behind */}
                                 <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
                                     <div className="w-[320px] h-[320px] md:w-[360px] md:h-[360px] rounded-full bg-gradient-to-br from-pink-100 via-purple-50 to-blue-100 opacity-80 filter blur-3xl" />
                                 </div>
 
-                                {/* dotted decorative ring (subtle) */}
                                 <div className="absolute w-[300px] h-[300px] md:w-[340px] md:h-[340px] rounded-full pointer-events-none">
                                     <div className="absolute inset-0 border-2 border-white/30 rounded-full opacity-40" />
                                 </div>
 
-                                {/* lower-right pastel wave */}
                                 <div className="absolute bottom-0 right-0 w-[320px] h-[120px] bg-gradient-to-r from-pink-100/60 to-blue-100/60 filter blur-2xl rounded-xl" />
 
-                                {/* tiny sparkles */}
                                 <div className="absolute -top-8 -right-12 w-2 h-2 bg-rose-200 rounded-full opacity-90" />
                                 <div className="absolute -top-4 -left-6 w-2 h-2 bg-blue-200 rounded-full opacity-80" />
                                 <div className="absolute bottom-12 right-20 w-2 h-2 bg-pink-200 rounded-full opacity-80" />
 
-                                {/* Illustration image */}
                                 <div className="relative z-10 flex items-center justify-center">
                                     <img
                                         src={heroImg}
