@@ -8,7 +8,6 @@ const Login = lazy(() => import('./pages/Login'));
 const Signup = lazy(() => import('./pages/Signup'));
 const Dashboard = lazy(() => import('./pages/Dashboard'));
 const SOSPage = lazy(() => import('./pages/SOSPage'));
-// ResourcesPage removed; resources functionality deprecated
 const GuidesPage = lazy(() => import('./pages/GuidesPage'));
 const CategoryPage = lazy(() => import('./pages/CategoryPage'));
 const EmergencyToolkit = lazy(() => import('./pages/EmergencyToolkit'));
@@ -31,7 +30,6 @@ export default function App() {
             path="/sos"
             element={<ProtectedRoute><SOSPage /></ProtectedRoute>}
           />
-          {/* /resources route removed */}
           <Route
             path="/guides"
             element={<ProtectedRoute><GuidesPage /></ProtectedRoute>}
