@@ -1,4 +1,3 @@
-// Practical, concise emergency guides for SafeCircle
 // Each guide contains a short summary and 4-6 clear action steps.
 
 export const emergencyGuides = [
