@@ -2,7 +2,6 @@ import React from 'react';
 import { emergencyGuides } from '../data/emergencyGuides';
 
 function cardClassById(id) {
-  // Match dashboard emergency category styles — pastel gradients + heading color
   switch (id) {
     case 'women-safety':
       return 'bg-gradient-to-br from-rose-50 to-pink-50 border-white/40 text-rose-700';
