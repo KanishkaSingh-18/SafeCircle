@@ -15,7 +15,6 @@ export default function Navbar() {
       await logout();
       navigate('/login');
     } catch {
-      // ignore for now; could show toast
     } finally {
       setLoading(false);
     }
@@ -43,7 +42,6 @@ export default function Navbar() {
           audioRef.current = null;
         }
       } catch (err) {
-        // swallow cleanup errors
       }
     };
   }, []);
