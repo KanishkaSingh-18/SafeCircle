@@ -34,12 +34,10 @@ export default function Dashboard() {
 
             <div className="flex items-center gap-3">
               {error && <div className="text-sm text-rose-700">{error}</div>}
-              {/* Logout button intentionally removed from this header per design — kept in navbar only */}
             </div>
           </div>
         </header>
-
-        {/* Emergency Categories glass card */}
+ 
   <section className="mt-10">
           <div className="bg-white/60 backdrop-blur-md rounded-[28px] border border-white/50 shadow-[0_18px_50px_rgba(15,23,42,0.06)] p-6">
             <h2 className="text-2xl font-semibold text-rose-700">Emergency Categories</h2>
@@ -85,7 +83,6 @@ export default function Dashboard() {
           </div>
         </section>
 
-        {/* Quick Actions glass card */}
         <section className="mt-10">
           <div className="bg-white/60 backdrop-blur-md rounded-[28px] border border-white/50 shadow-[0_24px_60px_rgba(15,23,42,0.06)] p-6">
             <h2 className="text-2xl font-semibold text-rose-700">Quick Actions</h2>
@@ -98,7 +95,6 @@ export default function Dashboard() {
               >
                 Manage SOS Contacts
               </button>
-              {/* Emergency Resources button removed (Resources page deprecated) */}
               <button
                 onClick={() => navigate('/guides')}
                 className="inline-flex items-center px-5 py-2 rounded-full bg-violet-100 text-violet-800 shadow-sm hover:bg-violet-200 transition"
