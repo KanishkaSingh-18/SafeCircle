@@ -16,7 +16,6 @@ export default function Login() {
     if (currentUser) {
       navigate('/dashboard');
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentUser]);
 
   async function handleSubmit(e) {
